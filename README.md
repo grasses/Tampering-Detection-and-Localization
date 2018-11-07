@@ -37,7 +37,7 @@
 
 3. Post-train in `experiment` folder
 
-
+<hr><br>
 
 * You can train your personal pretrain model:
 
