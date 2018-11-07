@@ -67,7 +67,7 @@
 
 
 
-Results of comparative experiment with method proposed by Bondi et al. and our RFM method. (a)-(c) illustrates cover image, forged image, and ground truth image. (d) and (e) illustrates result of cover image and forged image with RFM algorithm, (f) show result of Bondi et al. We improve localization fineness from 64 x 64 to 32 x 32 (see (f), (d)).
+Results of comparative experiment with method proposed by Bondi et al. and our RFM method. (a)-(c) illustrates cover image, forged image, and ground truth image. (d) and (e) illustrates result of cover image and forged image with RFM algorithm, (f) show result of Bondi et al. We improve localization fineness from 64 x 64 to 32 x 32 (see (e) and (f)).
 
 <br>
 
