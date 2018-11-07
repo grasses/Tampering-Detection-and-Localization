@@ -45,7 +45,7 @@
 
    > python main.py --code.config --action download --name Dresden
 
-2. Generate a tensorflow records files:
+2. Generate a tensorflow `records` file:
 
    > python main.py --code.cofnig --action generator
 
