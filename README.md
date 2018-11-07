@@ -19,9 +19,9 @@
 
 * Run pretrain model:
 
-1. You can download pretrain model at: [Baidu disk](https://pan.baidu.com/s/1wY50cEjYBCUC_o34miR9LQ) / [Google dirve]() 
+1. You can download pretrain model at: [Baidu disk](https://pan.baidu.com/s/1wY50cEjYBCUC_o34miR9LQ)
 
-   put download file into `code/model/{scope_name}`, see `{scope_name}` in `code.config.py`
+   put unzip folder into `code/model/{scope_name}`, see `{scope_name}` in `code.config.py`
 
 2. Run pre-train test using command:
 
@@ -31,7 +31,7 @@
 
    
 
-   The CNN module pretrain output is a csv file, which format with: 
+   The CNN module pre-train output is a csv file, which format with: 
 
    `{f1,f2,f3...,predict_label,true_label,quality_factory}`, where f1,f2... is CNN confidence of each camera model.
 
