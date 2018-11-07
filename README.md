@@ -59,14 +59,6 @@
 
 <br>
 
-
-
-# RFM algorithm
-
-![RFM algorithm framework](https://github.com/grasses/Tampering-Detection-and-Localization/blob/master/static/RFM-algorithm.jpg?raw=true)
-
-
-
 # Result
 
 
