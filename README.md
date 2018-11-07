@@ -47,7 +47,7 @@
 
 2. Generate a tensorflow `records` file:
 
-   > python main.py --code.cofnig --action generator
+   > python main.py --code.config --action generator
 
 3. For training process, running command:
 
