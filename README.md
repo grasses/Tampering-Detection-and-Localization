@@ -17,23 +17,55 @@
 
 # Usage
 
+* Run pretrain model:
+
+1. You can download pretrain model at: [Baidu disk](https://pan.baidu.com/s/1wY50cEjYBCUC_o34miR9LQ) / [Google dirve]() 
+
+   put download file into `code/model/{scope_name}`, see `{scope_name}` in `code.config.py`
+
+2. Run pre-train test using command:
+
+   > python main.py --code.config --action test
+
+   where `code.config.py` is config file including CNN architecture, dataset name, and so on. <br>
+
+   
+
+   The CNN module pretrain output is a csv file, which format with: 
+
+   `{f1,f2,f3...,predict_label,true_label,quality_factory}`, where f1,f2... is CNN confidence of each camera model.
+
+3. Post-train in `experiment` folder
+
+
+
+* You can train your personal pretrain model:
+
 1. Download Drensden dataset into /code/dataset
 
-2. For training process, running command:
+   > python main.py --code.config --action download --name Dresden
+
+2. Generate a tensorflow records files:
+
+   > python main.py --code.cofnig --action generator
+
+3. For training process, running command:
 
    > python main.py --conf code.config --action train
 
-   where `code.config.py` is config file including CNN architecture, dataset name, and so on.
-
-3. For testing process, running command:
-
-   > python main.py --conf code.config --action test
-
-4. Also, you can make your personal tampering dataset:
+4. Making your personal tampering dataset:
 
    > python main.py --conf code.config --action splicing
 
 <br>
+
+
+
+# RFM algorithm
+
+![RFM algorithm framework](https://github.com/grasses/Tampering-Detection-and-Localization/blob/master/static/RFM-algorithm.jpg?raw=true)
+
+
 
 # Result
 
@@ -43,7 +75,7 @@
 
 
 
-Results of comparative experiment with method proposed by Bondi et al. and our RFM method. (a)-(c) illustrates cover image, forged image, and ground truth image. (d) and (e) illustrates first iteration and output of RFM algorithm, (f) show result of Bondi et al.
+Results of comparative experiment with method proposed by Bondi et al. and our RFM method. (a)-(c) illustrates cover image, forged image, and ground truth image. (d) and (e) illustrates result of cover image and forged image with RFM algorithm, (f) show result of Bondi et al.
 
 <br>
 
