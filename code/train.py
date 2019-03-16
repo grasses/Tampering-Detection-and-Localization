@@ -5,9 +5,9 @@ __author__ = 'grasses'
 __email__ = 'xiaocao.grasses@gmail.com'
 __copyright__ = 'Copyright © 2018/08/20, grasses'
 
-from config import Config
-from network import Network
-from utils import Generator, tools
+from code.config import Config
+from code.network import Network
+from code.utils import Generator, tools
 import tensorflow as tf
 
 def main(conf=Config):

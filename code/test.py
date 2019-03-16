@@ -5,9 +5,9 @@ __author__ = 'grasses'
 __email__ = 'xiaocao.grasses@gmail.com'
 __copyright__ = 'Copyright © 2018/08/20, grasses'
 
-from config import Config
-from network import Network
-from utils.splicing import Splicing
+from code.config import Config
+from code.network import Network
+from code.utils.splicing import Splicing
 import os, tensorflow as tf, numpy as np, pandas as pd, utils.tools as utils
 curr_path = os.path.dirname(os.path.realpath(__file__))
 

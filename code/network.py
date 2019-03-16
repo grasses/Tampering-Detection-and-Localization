@@ -5,8 +5,8 @@ __author__ = 'grasses'
 __email__ = 'xiaocao.grasses@gmail.com'
 __copyright__ = 'Copyright © 2018/08/19, grasses'
 
-from config import Config
-import utils.tools as utils, time, os, tensorflow as tf, numpy as np
+from code.config import Config
+import code.utils.tools as utils, time, os, tensorflow as tf, numpy as np
 curr_path = os.path.dirname(os.path.realpath(__file__))
 
 class Network(object):
