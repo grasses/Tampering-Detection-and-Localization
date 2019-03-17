@@ -19,7 +19,7 @@
 
 * Run pretrain model:
 
-1. You can download pretrain model at: [Baidu disk](https://pan.baidu.com/s/1wY50cEjYBCUC_o34miR9LQ)
+1. You can download pretrain model at: [Baidu disk](https://pan.baidu.com/s/1mYEHwtQdIUb5vugruUppRA), password=`mxqr`
 
    put unzip folder into `code/model/{scope_name}`, see `{scope_name}` in `code.config.py`
 
