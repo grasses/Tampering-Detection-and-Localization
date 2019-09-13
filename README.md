@@ -1,6 +1,6 @@
 # Reliablity Fusing Map (RFM)
 
-​This repository is implementation of "Image Tampering Detection and Localization via CNN-Based Reliablity Fusing Map (RFM)". The main contributions are summarized as follows  (1) obtaining higher accuracy; (2) reducing computational complexity of clustering; (3) improving localization fineness from 64 x 64 to 32 x 32. 
+This repository is implementation of "Image Tampering Detection and Localization via CNN-Based Reliablity Fusing Map (RFM)". The main contributions are summarized as follows  (1) obtaining higher accuracy; (2) reducing computational complexity of clustering; (3) improving localization fineness from 64 x 64 to 32 x 32. 
 
 <br>
 
@@ -63,7 +63,7 @@
 
 
 
-![Results of comparative experiment with method proposed by Bondi et al. and our RFM method. (a)-(c) illustrates cover image, forged image, and ground truth image. (d) and (e) illustrates first iteration and output of RFM algorithm, (f) show result of Bondi et al.](https://github.com/grasses/Tampering-Detection-and-Localization/blob/master/static/result-2.jpg?raw=true)
+![Results of comparative experiment with method proposed by Bondi et al. and our RFM method. (a)-(c) illustrates cover image, forged image, and ground truth image. (d) and (e) illustrates first iteration and output of RFM algorithm, (f) show result of Bondi et al.](https://github.com/grasses/Tampering-Detection-and-Localization/blob/master/static/result-3.jpg?raw=true)
 
 
 
