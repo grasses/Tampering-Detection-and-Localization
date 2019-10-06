@@ -1,4 +1,4 @@
-# Reliablity Fusing Map (RFM)
+# Reliability Fusing Map (RFM)
 
 This repository is implementation of "Image Tampering Detection and Localization via Reliability Fusion Map” (RFM). The main contributions are summarized as follows  (1) obtaining higher accuracy; (2) reducing computational complexity of clustering; (3) improving localization fineness from 64 x 64 to 32 x 32. 
 
