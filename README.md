@@ -20,6 +20,7 @@ This repository is implementation of "Image Tampering Detection and Localization
 * Run pretrain model:
 
 1. You can download pretrain model at: [Baidu disk](https://pan.baidu.com/s/1mYEHwtQdIUb5vugruUppRA), password=`mxqr`
+   [Google drive](https://drive.google.com/file/d/1ULTmA1Ef5Y8NcOc1bSF8Ksj7rapaN0zO/view?usp=sharing)
 
    put unzip folder into `code/model/{scope_name}`, see `{scope_name}` in `code.config.py`
 
