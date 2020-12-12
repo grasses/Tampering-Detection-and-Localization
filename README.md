@@ -4,17 +4,6 @@ This repository is implementation of "Image Tampering Detection and Localization
 
 <br>
 
-# Prerequisites
-
-* tensorflow == 1.7.0
-* pandas == 0.23.4
-* scipy == 1.1.0
-* sklearn == 0.19.2
-* matplotlib == 2.2.3
-* Pillow == 5.2.0
-
-<br>
-
 
 # Citation
 ```
@@ -29,6 +18,19 @@ This repository is implementation of "Image Tampering Detection and Localization
   publisher={Multidisciplinary Digital Publishing Institute}
 }
 ```
+
+<br>
+
+# Prerequisites
+
+* tensorflow == 1.7.0
+* pandas == 0.23.4
+* scipy == 1.1.0
+* sklearn == 0.19.2
+* matplotlib == 2.2.3
+* Pillow == 5.2.0
+
+<br>
 
 
 # Usage
