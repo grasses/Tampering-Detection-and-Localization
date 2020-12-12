@@ -15,6 +15,21 @@ This repository is implementation of "Image Tampering Detection and Localization
 
 <br>
 
+
+# Citation
+
+@article{yao2020image,
+  title={Image Forgery Detection and Localization via a Reliability Fusion Map},
+  author={Yao, Hongwei and Xu, Ming and Qiao, Tong and Wu, Yiming and Zheng, Ning},
+  journal={Sensors},
+  volume={20},
+  number={22},
+  pages={6668},
+  year={2020},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+
 # Usage
 
 * Run pretrain model:
